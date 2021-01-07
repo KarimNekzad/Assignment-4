@@ -22,7 +22,7 @@
     <!-- 3 -->
     <div class="part3-form">
         <h1>Fakebook Login</h1>
-        <form>
+        <form onsubmit = "validate()">
             <label for="username" id="user">Username:</label>
             <input type="text">
             <br>
@@ -34,7 +34,7 @@
             <label for="password">Password:</label>
             <input type="text" id="pw">
             <br>
-            <input onsubmit = "validate()" id="submit-btn" type="submit" value="Submit">
+            <input id="submit-btn" type="submit" value="Submit">
         </form>
     </div>
 
