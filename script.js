@@ -30,7 +30,7 @@ function validate () {
 
     var pass = document.getElementById ("pw")
 
-    if (pass.value != 12345678) {
+    if (pass.value === 12345678) {
 
         var h1 = document.getElementsByTagName ("h1")
         h1[0].innerHTML = "NonBook Login"
