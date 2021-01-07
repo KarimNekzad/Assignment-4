@@ -28,6 +28,7 @@ part2.addEventListener("mouseover", () => {
 
 var h1 = document.getElementsByTagName ("h1");
 
+function validate () {
     var pass = document.getElementById("pw").value 
 
     if (pass === "12345678") {
@@ -40,3 +41,4 @@ var h1 = document.getElementsByTagName ("h1");
         alert("Password is incorrect")
 
     }
+}
