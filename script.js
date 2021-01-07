@@ -28,9 +28,9 @@ part2.addEventListener("mouseover", () => {
 
 function validate () {
 
-    var pass = document.getElementById ("pw")
+    var pass = document.getElementById ("pw").value 
 
-    if (pass.value === 12345678) {
+    if (pass === 12345678) {
 
         var h1 = document.getElementsByTagName ("h1")
         h1[0].innerHTML = "NonBook Login"
