@@ -9,9 +9,6 @@
     <div>
         <button onclick="fightingbtns()"> Click me! </button>
         <button onclick="otherbtn()"> No click me! </button>
-
-        <script src="fightingbtns.js"></script>
-        <script src="otherbtn.js"></script>
     </div>
 
     <!-- 2 -->
@@ -20,7 +17,7 @@
     </div>
 
     <!-- 3 -->
-    <div class="part3-form">
+    <div id="part3-form">
         <h1>Fakebook Login</h1>
         <form>
             <label for="username" id="user">Username:</label>
@@ -32,10 +29,12 @@
             <br>
             <br>
             <label for="password">Password:</label>
-            <input type="text" id="pw">
+            <input type="text" id="password">
             <br>
-            <input id="submit-btn" type="submit" value="Submit">
+            <input type="button" onclick="checkpass()" value="Submit form">
         </form>
+        <!-- 4 -->
+        <h1 id="part4-h1">Type your password</h1>
     </div>
 
     <script src="script.js"></script>
