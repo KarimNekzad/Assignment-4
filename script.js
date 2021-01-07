@@ -26,7 +26,7 @@ part2.addEventListener("mouseover", () => {
     alert("Hey, I told you not to hover over me!")
 })
 
-var h1 = document.getElementsByTagName ("h1")
+var h1 = document.getElementsByTagName ("h1");
 
     var pass = document.getElementById("pw").value 
 
