@@ -1,13 +1,43 @@
 <!DOCTYPE html>
+
 <head>
     <title>Assignment-4</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- 2 -->
-    <h1 id="part2">Don't hover over me</h1>
+    <!-- 1 -->
+    <div>
+        <button onclick="fightingbtns()"> Click me! </button>
+        <button onclick="otherbtn()"> No click me! </button>
+
+        <script src="fightingbtns.js"></script>
+        <script src="otherbtn.js"></script>
+
+        <!-- 2 -->
+        <h1 id="part2">Don't hover over me</h1>
+    </div>
+
+    <!-- 3 -->
+    <div class="part3-form">
+        <h1>Fakebook Login</h1>
+        <form>
+            <label for="username" id="user">Username:</label>
+            <input type="text">
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="text" id="pw">
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
