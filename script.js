@@ -26,19 +26,17 @@ part2.addEventListener("mouseover", () => {
     alert("Hey, I told you not to hover over me!")
 })
 
-function validate () {
+var h1 = document.getElementsByTagName ("h1")
 
-    var pass = document.getElementById ("pw").value 
+    var pass = document.getElementById("pw").value 
 
-    if (pass === 12345678) {
+    if (pass === "12345678") {
 
-        var h1 = document.getElementsByTagName ("h1")
-        h1[0].innerHTML = "NonBook Login"
+
+        h1.innerHTML = "<h1>NonBook Login</h1>"
 
     } else {
 
         alert("Password is incorrect")
 
     }
-
-}
